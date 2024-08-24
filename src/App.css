@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Basic styles for the application */
+
+.search-component, .login-modal, .candidate-home, .list-card {
+  padding: 20px;
+  margin: 20px;
+}
+
+.search-component input, .login-modal input {
+  margin-right: 10px;
+}
+
+.login-modal button, .candidate-home button {
+  margin-top: 10px;
+}
+
+.list-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-card li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
